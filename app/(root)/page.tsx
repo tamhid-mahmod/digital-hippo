@@ -1,16 +1,12 @@
-import { MaxWidthWrapper } from "@/components/MaxWidthWrapper";
-
 import HomeHero from "@/sections/home/HomeHero";
 import HomePerks from "@/sections/home/HomePerks";
 
 export default function RootPage() {
   return (
     <>
-      <MaxWidthWrapper>
-        <HomeHero />
+      <HomeHero />
 
-        {/* TODO: List products */}
-      </MaxWidthWrapper>
+      {/* TODO: List products */}
 
       <HomePerks />
     </>
